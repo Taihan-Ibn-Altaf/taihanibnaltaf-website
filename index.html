@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taihan Ibn Altaf</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Taihan</span>
+            </div>
+            <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </div> <!-- Closing nav-container -->
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey I'm
+                    <span>Taihan</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hello! I'm Taihan Ibn Altaf, a passionate and dedicated web developer with a strong enthusiasm for creating beautiful, responsive, and user-friendly websites. I enjoy bringing ideas to life through clean code and creative design.Currently expanding my skills in front-end development, I am always eager to learn new technologies and tackle new challenges. Whether it's building dynamic websites or crafting smooth user experiences, I love turning visions into reality.Outside of coding, I have a deep interest in gaming, cricket, and gardening, which help me stay creative and energized.I believe in continuous learning, hard work, and making a positive impact through technology. Let's build something amazing together!</p>
+                <div class="social-links">
+                    <a href="https://github.com/Taihan-Ibn-Altaf" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/megamind.taihanali" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/taihan-ibn-altaf-26a523294/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://x.com/TaihanIbn10997" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="btn"data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-details">
+            <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Designing is my Passion</div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                    Hi, I’m Taihan Ibn Altaf, and design isn’t just a skill for me — it’s a passion. I believe great design has the power to tell stories, spark emotions, and shape user experiences that feel intuitive and engaging.Whether I'm working on a sleek UI, responsive layout, or branding a digital identity, I aim to blend creativity with functionality. I enjoy exploring colors, typography, and layout systems that not only look good — but feel right.Every project is an opportunity to grow, learn, and bring visions to life. I’m always looking for ways to improve, experiment, and push the boundaries of digital design. Let’s build something beautiful together
+                </p>
+                <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                    <a href="cv.pdf" download="Taihan_Ibn_Altaf_CV" class="download-btn"></a>
+                    <button onclick="downloadCV()">Download CV</button>
+                </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Skills Reflects Our Knowledge
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Every skill is a reflection of learning, practice, and real-world application. From hands-on coding to creative design, each ability represents the effort and passion invested in mastering it. Here's a glimpse of the tools and technologies I work with:
+                    </p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">10</div>
+                        <div class="exp">
+                            Years Of<br/>
+                            Experince
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">PHP</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Every skill is a reflection of learning, practice, and real-world application. From hands-on coding to creative design, each ability represents the effort and passion invested in mastering it.In the world of web development, I strive to build responsive, user-friendly, and visually appealing experiences. Here’s a look at the tools and technologies I use to bring digital ideas to life:</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>Design goes beyond aesthetics — it's about communication, clarity, and creativity. Every visual I create is backed by thoughtful choices in color, layout, and typography.Graphic design has allowed me to express ideas visually and connect with audiences across different platforms. Below are the tools and skills I use to bring designs to life:</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>Digital marketing is more than promotion — it's about connection, strategy, and delivering value to the right audience at the right time. With every campaign, I focus on creativity backed by data, ensuring that every effort has purpose and impact.From crafting engaging content to analyzing performance metrics, I use a mix of tools and techniques to build strong digital presences. Below are the skills and platforms I work with to drive results:</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fas fa-android"></i>
+                    </div>
+                    <div class="topic">Icon Design</div>
+                    <p>Icon design is the art of saying more with less — simplifying complex ideas into instantly recognizable visuals. It's where clarity, consistency, and creativity come together to guide users and enhance interfaces. Whether for apps, websites, or branding, I approach every icon with attention to detail, shape harmony, and meaning. Below are the tools and principles I rely on to craft purposeful, effective icons:</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Photography</div>
+                    <p>Photography is more than capturing moments — it’s about telling stories through light, composition, and perspective. Each shot is a chance to freeze emotion, detail, and atmosphere in a single frame.From portraits to landscapes, I focus on creating visually compelling images that resonate with viewers. Below are the skills and tools I use to bring scenes to life through the lens:</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">App Development</div>
+                    <p>App development brings ideas to life in the palm of your hand — combining functionality, design, and performance to create seamless digital experiences.From wireframes to fully functional applications, I focus on building apps that are intuitive, efficient, and user-focused. Below are the tools, frameworks, and skills I use to turn concepts into powerful mobile solutions:</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+            <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Projects</div>
+                <p>I'm currently working on a series of web and mobile app projects that showcase my skills in design, development, and user experience. Stay tuned — exciting updates are on the way!</p>
+                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Created By
+                <a href="#">Taihan Ibn Altaf</a>
+                &#169; 2025 All Rights Reserved</span>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>
